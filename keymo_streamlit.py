@@ -34,10 +34,11 @@ if page == "Welcome":
     st.title("Welcome to Password Cracker")
     st.write("This tool demonstrates a brute-force attack on a password.")
     st.write("Use the sidebar to navigate through the pages.")
+    st.write("Passwords having more than 3 characters cannot be cracked due to streamlit memory constraints.")
 
 elif page == "Enter Password":
     st.title("Enter Password")
-    password = st.text_input("Enter Password", type="password")
+    password = st.text_input("Enter Password(0-3 characters only):", type="password")
     if st.button("Crack Password"):
         if password:
             st.session_state['password'] = password
