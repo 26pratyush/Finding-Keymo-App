@@ -31,7 +31,7 @@ if 'brute_force_attempts' not in st.session_state:
 page = st.sidebar.radio("Navigation", ["Welcome", "Enter Password", "Brute Force Attempts", "Cracked Password"])
 
 if page == "Welcome":
-    st.title("Welcome to Password Cracker")
+    st.title("Welcome to Finding Key-mo")
     st.write("This tool demonstrates a brute-force attack on a password.")
     st.write("Use the sidebar to navigate through the pages.")
     st.write("Passwords having more than 3 characters cannot be cracked due to streamlit memory constraints.")
