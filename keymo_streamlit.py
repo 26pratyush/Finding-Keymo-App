@@ -38,7 +38,7 @@ if page == "Welcome":
 
 elif page == "Enter Password":
     st.title("Enter Password")
-    password = st.text_input("Enter Password(0-3 characters only):", type="password")
+    password = st.text_input("Enter Password (0-3 characters only):", type="password")
     if st.button("Crack Password"):
         if password:
             st.session_state['password'] = password
