@@ -4,7 +4,7 @@ Finding Keymo, now hosted on Streamlit!
 
  This app demonstrates how a brute-force attack works by attempting to guess a password through an exhaustive search pattern.
 
- [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://keymoapppy-a3pauduhxep3gcljqludgb.streamlit.app/)
+ [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://finding-keymo-app-3nywrwe9krsd9nidkbat7d.streamlit.app/)
 
 ## 🚀 Features
 - **Welcome Page**: App introduction and instructions for use.
