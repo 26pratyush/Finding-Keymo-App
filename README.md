@@ -1,4 +1,4 @@
-Finding Keymo, now hosted on Streamlit!
+Finding Keymo 🐠 now hosted on Streamlit!
 
 # 🔓  Brute-Force Password Cracker
 
